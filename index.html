@@ -122,11 +122,12 @@
             });
 
             Snackbar.show(
-                { 
-                    text: "Použi šípky alebo posúvaj prstom.",
+                {                     
+                    text: "<span class='material-icons outlined'>stay_primary_landscape</span><br/>Otoč telefón na ležato.<br/>Použi šípky alebo posúvaj prstom.",
                     pos: "bottom-right",
                     showAction: true,
-                    actionText: "ZAVRIEŤ"
+                    actionText: "ZAVRIEŤ",
+                    duration: 9000,
                 });
 
             var camInterval = setInterval(refreshCams, 10000);
